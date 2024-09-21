@@ -1,0 +1,31 @@
+* {
+    background: linear-gradient(to left, #009407, #00682f);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #c6dfc6;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+    
+}
+video {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; 
+    }
+    nav {
+        flex-direction: column; 
+    }
+    video {
+        width: 300px;
+    }
+}
